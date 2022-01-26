@@ -1,0 +1,76 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  nav a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    float: left;
+  }
+  nav img{
+    float: right;
+  }
+  /* Change the link color to #111 (black) on hover */
+  nav a:hover {
+    background-color: #111;
+  }
+body {
+    background-color:powderblue
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+nav{
+  margin: 0;
+  padding: 1%;
+  overflow: hidden;
+  background-color: #333;
+}
+
+.news{
+  width: 15%; 
+  float: left; 
+  background-color: honeydew;
+  margin-top: 1%;
+  border: solid;
+  border-color: gray;
+}
+
+.news-article{
+  border-top:solid; 
+  width: 100%; 
+  border-color: gray;
+}
+
+.rightdiv{
+  width: 50%; 
+  float: right; 
+  background-color: honeydew;
+  margin-top: 1%;
+  border: solid;
+  border-color: gray;
+}
+
+.rightdiv-child{
+  border-top:solid; 
+  width: 100%; 
+  border-color: gray;
+}
+
+.rightdiv-child-img{
+  width: 40%;
+  margin-left: 6%;
+  margin-top: 1%;
+}
