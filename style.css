@@ -1,0 +1,122 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+nav a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  float: left;
+}
+nav img{
+  float: left;
+  align-self: center;
+  width: 5%;
+}
+
+nav h3{
+  font-family: 'Kanit', sans-serif;
+  color: white;
+}
+/* Change the link color to #111 (black) on hover */
+nav a:hover {
+  background-color: #111;
+}
+body {
+  background-color:powderblue
+}
+
+/* Clear floats after the columns */
+.row:after {
+content: "";
+display: table;
+clear: both;
+}
+
+nav{
+padding: 1%;
+overflow: hidden;
+background-color: #333;
+margin-bottom: 1%;
+}
+
+.news{
+width: 15%; 
+background-color: honeydew;
+border: solid;
+border-color: gray;
+}
+
+.news-article{
+border-top:solid; 
+width: 100%; 
+border-color: gray;
+}
+
+.rightdiv{
+width: 50%;  
+background-color: honeydew;
+border: solid;
+border-color: gray;
+}
+
+.rightdiv-child{
+border-top:solid; 
+width: 100%; 
+border-color: gray;
+}
+
+.rightdiv-child-img{
+width: 40%;
+margin-left: 6%;
+margin-top: 1%;
+}
+
+.sourceCodeDownloads{
+  width: 30%; 
+  background-color: honeydew;
+  margin-top: 1%;
+  margin-left: 35%;
+  border: solid;
+  border-color: gray;
+}
+.utilityDownloads{
+  width: 15%; 
+  float: right; 
+  margin-top: 1%;
+  background-color: honeydew;
+  /*margin-top: -7%;*/
+  border: solid;
+  border-color: gray;
+}
+
+.downloadPageMainDiv{
+  width: 30%; 
+  background-color: honeydew;
+  border: solid;
+  border-color: gray;
+}
+.download{
+  background-color: honeydew;
+  border-top: solid;
+  border-color: gray;
+}
+.container {
+  display: flex; /* or inline-flex */
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+}
+
+.mainContainer{
+  display: flex; /* or inline-flex */
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
