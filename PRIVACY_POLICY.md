@@ -1,0 +1,1 @@
+This app does not collect any data. No data is sent to developers or third parties and it does not connect to the internet. There is no tracking of any sort and the game does not contain personalized ads.
