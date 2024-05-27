@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>LQG Studios</title>
+    <title>Downloads</title>
     <link rel="icon" href="icon.ico">
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -12,7 +12,7 @@
     <script src="jquery-3.6.1.min.js"></script>
     <script src="site.js"></script>
 </head>
-<body onload="loadNews()">
+<body onload="loadGames()">
 
 <nav>
     <img src="icon.png" alt="">
@@ -22,10 +22,16 @@
     <a href="videos.html"">Videos/Movies</a>
     <a href="general_privacy.html">Privacy Policy</a>
 </nav> 
-<div class="mainContainer">
-    <table id="newsDisplay" class="news"></table>
-</div>
 
+
+<div class="container">
+    <div class="downloadPageMainDiv">
+        <table id="gamesDisplay" class="kindaLikeNews"></table>
+    </div>
+    <div class="individualGame" id="individualDiv">
+        <table id="individualDisplay" class="kindaLikeNews"></table>
+    </div>
+</div>
 
 
 </body>

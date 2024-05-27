@@ -3,7 +3,6 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #333;
 }
 
 nav a {
@@ -47,17 +46,17 @@ margin-bottom: 1%;
 }
 
 .news{
-width: 30%; 
+width: 60%; 
 background-color: honeydew;
 border: solid;
 border-color: gray;
 }
 
 .news-article{
-border-top:solid; 
-width: 100%; 
-border-color: gray;
-}
+  border-top:solid; 
+  width: 100%; 
+  border-color: gray;
+  }
 
 .rightdiv{
 width: 50%;  
@@ -118,5 +117,25 @@ margin-top: 1%;
   display: flex; /* or inline-flex */
   flex-direction: row;
   flex-wrap: nowrap;
-  justify-content: space-between;
+  justify-content: center;
+}
+
+
+
+/*displaying le video game*/
+
+.individualGame{
+  width: 60%; 
+  height: 200px;
+  background-color: honeydew;
+  border: solid;
+  border-color: gray;
+}
+
+.kindaLikeNews{
+  width: 100%; 
+  height: 200px;
+  background-color: honeydew;
+  border: solid;
+  border-color: gray;
 }

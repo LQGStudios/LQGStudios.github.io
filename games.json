@@ -1,0 +1,5 @@
+[
+    {"title":"Taco Frenzy","description":"Demo of a little platformer about a taco","linkText":"Download windows installer 64-bit",  "link": "setup.exe"},
+    {"title":"Sport Game","description":"An unfinished mini-golf game and something vaguely resembling a pre-alpha tech demo of a tennis game","linkText":"Download windows installer 64-bit",  "link": "SportGameSetup.exe"},
+    {"title":"Rule of Division","description":"A math game that teaches division through engaging action gameplay","linkText":"Link to separate website (with options)",  "link": "https://ruleofdivision.github.io/guide.html"}
+]
